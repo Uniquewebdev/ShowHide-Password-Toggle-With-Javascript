@@ -1,0 +1,52 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: fantasy;
+}
+ 
+.conatainer {
+	position: absolute;
+	transform: translate(-50%, -50%);
+	top: 50%;
+	left: 50%;
+	width: 300px;
+}
+
+input {
+	box-sizing: border-box;
+	width: 100%;
+	font-size: 18px;
+	border: 2px solid cyan;
+	padding: 10px 10px;
+	border-radius: 5px;
+	color: #4a4a4a;
+	letter-spacing: 0.5px;
+	box-shadow: 0 0 45px 0px grey;
+	background-color: aliceblue;
+}
+
+input:focus {
+	color: red;
+}
+
+input:hover {
+	color: grey;
+	font-weight: 500;
+}
+
+span {
+	position: absolute;
+	right: 15px;
+	transform: translate(0, -50%);
+	top: 50%;
+	cursor: pointer;
+}
+
+.fa {
+	font-size: 20px;
+	color: red;
+}
+
+.fa:hover {
+	color: black;
+}
